@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #333; 
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: #ff6f61;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+#fotografia {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ff6f61;
+    border-radius: 50%;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+
+h2 {
+    color: #ff6600; 
+    margin-top: 20px;
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+li {
+    margin: 5px 0;
+}
+
+
+ol a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+
+ol a:visited {
+    color: #00b86e; 
+}
+
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-bottom: 20px;
+}
+
+
+ul ul, ol ol {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+
+ul li, ol li {
+    background-color: #444; 
+    padding: 5px;
+}
+
+
+ul ul li, ol ol li {
+    background-color: transparent;
+    padding: 0;
+}
+
+
+#biografia, #logro, #bebidas, #musica, #conceptos, #f1 {
+    background-color: #555; 
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444; 
+    border-radius: 5px;
+}
